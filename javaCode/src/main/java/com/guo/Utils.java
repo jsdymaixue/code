@@ -10,6 +10,8 @@ public class Utils {
     }
 
     public static void main(String[] args) {
+
+          int number=0;
         System.out.println("----------------普通的写法-----------------------");
         List<String> al = Arrays.asList("a","b","c","d");
         for (String a: al) {
