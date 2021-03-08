@@ -1,4 +1,4 @@
-package com.guo;
+package com.guo.jmm;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

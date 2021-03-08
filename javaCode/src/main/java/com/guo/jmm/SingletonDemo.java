@@ -1,4 +1,4 @@
-package com.guo;
+package com.guo.jmm;
 
 public class SingletonDemo {
 
