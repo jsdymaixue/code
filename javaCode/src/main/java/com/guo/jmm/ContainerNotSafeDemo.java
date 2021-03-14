@@ -3,13 +3,13 @@ package com.guo.jmm;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CountDownLatch;
 
 /**
  * 集合类不安全问题
  */
 public class ContainerNotSafeDemo {
     public static void main(String[] args) {
-
         Map<String,String> map=new ConcurrentHashMap<>();
         for (int i = 1; i <30 ; i++) {
             new Thread(()->{
